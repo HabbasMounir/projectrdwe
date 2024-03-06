@@ -1,0 +1,18 @@
+.sec{
+    margin-Top: 5rem;
+     display: flex;
+     justify-content: space-between;
+      padding-Left: 60px; padding-Right:60px; align-Items: center;
+}
+@media screen and (max-width: 900px){
+    .sec{
+        margin-Top: 5rem;
+         display: flex;
+flex-direction: column;
+         justify-content: center;
+          padding-Left: 60px; 
+          padding-Right:60px; 
+          align-Items: center;
+    }
+
+}

@@ -39,7 +39,7 @@ export const AboutUsSection = () => {
 
   return (
     <>
-      <section style={{marginTop: '5rem', display: 'flex', justifyContent: 'space-between', paddingLeft: '60px', paddingRight: '60px', alignItems: 'center'}}>
+      <section className={Styles.sec} style={{}}>
         <div style={{textAlign: 'left', marginTop: '-50px'}}>
           <p style={{color: 'white', fontFamily: 'Roboto'}}> More About Us</p>
           <h1 style={{color: 'white', fontFamily: 'Roboto', fontSize: '38px', fontWeight: '400'}}> Some Picturs of Members Work </h1>

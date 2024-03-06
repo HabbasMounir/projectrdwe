@@ -1,12 +1,12 @@
 import React from "react";
 
-function Logo() {
+function Logo({size = 60}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="60"
-      height="60"
+      width={size}
+      height={size}
       fill="none"
       viewBox="0 0 490 490"
     >

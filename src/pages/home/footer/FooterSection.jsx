@@ -1,7 +1,9 @@
+import Styles from "./footer.module.css";
+
 export const FooterSection = () => {
   return (
     <>
-      <p href="#" style={{fontSize: '16px', fontWeight: '150px', color: '#F1F1F1', opacity: '0.3', textAlign: 'left'}}>© Copyright , TFC Team</p>
+      <p href="#" className={Styles.copyRight}>© Copyright , TFC Team</p>
     </>
   )
 }

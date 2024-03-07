@@ -42,13 +42,13 @@ export const AboutUsSection = () => {
       <section className={Styles.sec} style={{}}>
         <div style={{textAlign: 'left', marginTop: '-50px'}}>
           <p style={{color: 'white', fontFamily: 'Roboto'}}> More About Us</p>
-          <h1 style={{color: 'white', fontFamily: 'Roboto', fontSize: '38px', fontWeight: '400'}}> Some Picturs of Members Work </h1>
+          <h1 > Some Picturs of Members Work </h1>
         </div>
-        <div >
+        <div className={Styles.carousel}>
           <Carousel
             cards={cards}
-            height="300px"
-            width="300px"
+            height="200px"
+            width="200px"
             margin="0 auto"
             offset={2}
             showArrows={false}

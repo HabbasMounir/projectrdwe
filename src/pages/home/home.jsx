@@ -25,15 +25,16 @@ export default function Home() {
       <Navbar />
       <div className={Style.page}>
         <section className={Style.hero}>
-          <h1>
-            Make Yourself Great Again
-          </h1>
+          <div style={{position: 'relative'}}>
+            <h5>Welcome To TFC</h5>
+            <h1>Make Yourself Great Again</h1>
+          </div>
           <h2>
             Developemnt,Design Marketing-Despline <br />Skillful Work.
           </h2>
           <div className={Style.wsmo} >
             <div  className={Style.wsmo2} >
-              <p >
+              <p style={{fontSize: '1em'}}>
                 رد بالك !! مواقع تواصل قنعوك بلي تقدر ولازم تعيش وحدك. وين فالصح العزلة خطيرة علينا<br />
                 كامل، لازم تكون فجماعة وين واحد ينافسك ويدعمك وين ميخليكش تحبس الخدمة وديما يعاونك <br />
                 بش متقعدش فنفس البلاصة... وعلابيها راكم هنا اليوم.
@@ -44,7 +45,7 @@ export default function Home() {
               </div>
             </div>
             <div style={{marginTop: '-100px'}}>
-              <Logo size={440} />
+              <Logo size={280} />
             </div>
           </div>
         </section>

@@ -8,6 +8,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #0005;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 999;
+}
+
+.fakeHeight {
+    height: 90px;
 }
 
 .nav>nav{
